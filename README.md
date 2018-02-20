@@ -34,126 +34,126 @@ Use materials from [Resources](Resources/RESOURCES.md) section to master topics 
 ## The roadmap
 
 - [ ] Practical knowledge
-	- [ ] Getting started
-		- [ ] First pet project ideas
+	- [x] Getting started
+		- [x] First pet project ideas
 	- [ ] Languages
 		- [ ] `Objective-C`
-			- [ ] `Blocks`
-				- [ ] `Memory Management`
-			- [ ] `KVC`
-			- [ ] `KVO`
-			- [ ] Toll-free bridging
+			- [x] `Blocks`
+				- [x] `Memory Management`
+			- [x] `KVC`
+			- [x] `KVO`
+			- [x] Toll-free bridging
 			- [ ] `Runtime`
-				- [ ] `Method messaging`
-				- [ ] Swizling
+				- [x] `Method messaging`
+				- [x] Swizling
 				- [ ] NSZombies and KVO
 implementation
 		- [ ] `Swift`
-			- [ ] `Closures`
+			- [x] `Closures`
 			- [ ] `Initializers`
-			- [ ] `Generics`
-			- [ ] `Protocols`
-			- [ ] `Structs`
-			- [ ] `Enums`
-			- [ ] `Runtime`
-				- [ ] `Method dispatch`
-		- [ ] `Memory management`
-			- [ ] `Stack and Heap`
-			- [ ] `Value vs Reference type`
-			- [ ] `MRC`
-			- [ ] `ARC`
-				- [ ] `weak references`
-			- [ ] `Retain cycles`
-			- [ ] Garbage collector
-			- [ ] `Memory leaks`
-			- [ ] Shallow and deep copying
-			- [ ] `Autorelease pool`
-		- [ ] `Multithreading and concurency`
+			- [x] `Generics`
+			- [x] `Protocols`
+			- [x] `Structs`
+			- [x] `Enums`
+			- [x] `Runtime`
+				- [x] `Method dispatch`
+		- [x] `Memory management`
+			- [x] `Stack and Heap`
+			- [x] `Value vs Reference type`
+			- [x] `MRC`
+			- [x] `ARC`
+				- [x] `weak references`
+			- [x] `Retain cycles`
+			- [x] Garbage collector
+			- [x] `Memory leaks`
+			- [x] Shallow and deep copying
+			- [x] `Autorelease pool`
+		- [x] `Multithreading and concurency`
 			- [ ] POSIX threads
-			- [ ] NSThreads
-			- [ ] Perform selector family
-			- [ ] `GCD`
-			- [ ] `NSOperation(Queue)`
-			- [ ] `Runloop`
-			- [ ] `Methods of thread synchronisation`
-			- [ ] Problems
-				- [ ] Race condition
-				- [ ] Deadlock
-				- [ ] Reader-writer problems
+			- [x] NSThreads
+			- [x] Perform selector family
+			- [x] `GCD`
+			- [x] `NSOperation(Queue)`
+			- [x] `Runloop`
+			- [x] `Methods of thread synchronisation`
+			- [x] Problems
+				- [x] Race condition
+				- [x] Deadlock
+				- [x] Reader-writer problems
 		- [ ] `Cocoa Touch (iOSKit)`
-			- [ ] `UIKit`
-				- [ ] `UIApplication`
-					- [ ] `States`
-					- [ ] `UIApplicationDelegate`
-				- [ ] `UIViews`
-					- [ ] `UITableViews`
-					- [ ] `UICollectionViews`
-				- [ ] Layers
-				- [ ] `Layout`
-					- [ ] `Frame-based (manual)`
-					- [ ] `Constraint-based (autolayout)`
-						- [ ] UIStackView
-				- [ ] `Animations`
-				- [ ] `Transform`
-				- [ ] `Screen transitions (Navigation)`
-				- [ ] `ViewController`
-					- [ ] `Lifecycle`
-				- [ ] UserNotifications
+			- [x] `UIKit`
+				- [x] `UIApplication`
+					- [x] `States`
+					- [x] `UIApplicationDelegate`
+				- [x] `UIViews`
+					- [x] `UITableViews`
+					- [x] `UICollectionViews`
+				- [x] Layers
+				- [x] `Layout`
+					- [x] `Frame-based (manual)`
+					- [x] `Constraint-based (autolayout)`
+						- [x] UIStackView
+				- [x] `Animations`
+				- [x] `Transform`
+				- [x] `Screen transitions (Navigation)`
+				- [x] `ViewController`
+					- [x] `Lifecycle`
+				- [x] UserNotifications
 			- [ ] `Foundation`
-				- [ ] `Notifications, Delegation and observing`
-				- [ ] Collections
-				- [ ] `Networking`
+				- [x] `Notifications, Delegation and observing`
+				- [x] Collections
+				- [x] `Networking`
 				- [ ] `Serialization`
-					- [ ] NSCoding
-					- [ ] `Codable`
-					- [ ] `JSON`
-					- [ ] XML
+					- [x] NSCoding
+					- [x] `Codable`
+					- [x] `JSON`
+					- [x] XML
 					- [ ] Protobuf
-			- [ ] Core Location
-			- [ ] `Work in background mode`
+			- [x] Core Location
+			- [x] `Work in background mode`
 		- [ ] `Software Architecture`
 			- [ ] `Design Patterns`
 				- [ ] `Architectural`
-					- [ ] `MVC`
-					- [ ] `MVVM`
+					- [x] `MVC`
+					- [x] `MVVM`
 					- [ ] `MVP`
 					- [ ] `Clean architecture`
 						- [ ] `VIPER`
 						- [ ] RIBs
 				- [ ] `Creational`
-					- [ ] `Singleton`
-					- [ ] `Factory`
+					- [x] `Singleton`
+					- [x] `Factory`
 					- [ ] `Abstract Factory`
 				- [ ] Structural
 				- [ ] `Behavioural`
 					- [ ] `Observer`
 				- [ ] Concurrency
 			- [ ] `Design Principles`
-				- [ ] `SOLID`
-				- [ ] `Inversion of Control`
-					- [ ] `Dependency Injection`
-					- [ ] Service Locator
-			- [ ] Object-Oriented Programming
-			- [ ] `Third-party dependencies management`
-				- [ ] `Cocoapods`
-				- [ ] `Carthage`
-				- [ ] Swift Package Manager
+				- [x] `SOLID`
+				- [x] `Inversion of Control`
+					- [x] `Dependency Injection`
+					- [x] Service Locator
+			- [x] Object-Oriented Programming
+			- [x] `Third-party dependencies management`
+				- [x] `Cocoapods`
+				- [x] `Carthage`
+				- [x] Swift Package Manager
 			- [ ] Functional programming
 				- [ ] Functional Reactive Programming Frameworks
-		- [ ] Project structure and File/Group organisation
-		- [ ] `Version Control Systems`
-			- [ ] `Git`
+		- [x] Project structure and File/Group organisation
+		- [x] `Version Control Systems`
+			- [x] `Git`
 		- [ ] Debugging
-			- [ ] Instruments
+			- [x] Instruments
 			- [ ] Best practices
 				- [ ] Checklists
 		- [ ] UX
 		- [ ] `Caching and Persistency`
 			- [ ] `Core Data`
-			- [ ] Realm
+			- [x] Realm
 			- [ ] YAPDatabase
 		- [ ] `Testing`
-			- [ ] `Unit Tests`
+			- [x] `Unit Tests`
 			- [ ] Snapshot Tests
 			- [ ] Functional test
 			- [ ] TDD
@@ -161,14 +161,14 @@ implementation
 		- [ ] Performance optimization
 			- [ ] Increase FPS
 			- [ ] Decrease memory footprint
-		- [ ] Code signing
+		- [x] Code signing
 		- [ ] Tools
-			- [ ] `Swiftlint`
+			- [x] `Swiftlint`
 			- [ ] Sourcery
-			- [ ] Fastlane
-		- [ ] Continuous Integration
-		- [ ] Security
-			- [ ] Keychain
+			- [x] Fastlane
+		- [x] Continuous Integration
+		- [x] Security
+			- [x] Keychain
 		- [ ] tvOS
 		- [ ] WatchKit
 - [ ] Computer Science knowledge
@@ -185,18 +185,18 @@ implementation
 		- [ ] NP Complete
 		- [ ] `Big-O notation`
 	- [ ] `Abstract Data Types`
-		- [ ] `Stack`
-		- [ ] `Array`
-		- [ ] `List`
-		- [ ] `Map`
+		- [x] `Stack`
+		- [x] `Array`
+		- [x] `List`
+		- [x] `Map`
 		- [ ] Multimap
-		- [ ] `Set`
+		- [x] `Set`
 		- [ ] Multiset (Bag)
-		- [ ] `Graph`
+		- [x] `Graph`
 		- [ ] `Queue`
-		- [ ] Priority Queue
+		- [x] Priority Queue
 		- [ ] Double-ended priority queue
-		- [ ] Double-ended queue
+		- [x] Double-ended queue
 	- [ ] `System design`
 		- [ ] Problems
 
